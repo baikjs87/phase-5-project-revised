@@ -1,0 +1,53 @@
+.page-wrapper{
+    padding: 20px 4em;
+}
+
+#wrapper {
+    align-self: center;
+    margin: 40px auto;
+    max-width: 1000px;
+    box-shadow: 3px 3px 9px rgba(194, 199, 214, 0.459);
+    border-radius: 25px;
+}
+
+#review-wrapper {
+    margin-top: 30px;
+}
+
+.review-wrapper{
+    margin-top: 20px;
+}
+
+#form {
+    margin: 40px auto 60px;
+}
+
+#comments-wrapper {
+    margin-top: 20px;
+    max-width: 1000px;
+}
+
+#comments {
+    margin: 20px 0 40px;
+}
+
+.line {
+    /* margin: 20px auto 40px; */
+    max-width: 100%;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.form-control{
+    white-space: pre-wrap;
+}
+
+.review_image{
+    width: auto;
+    max-width: 100%;
+    margin: 20px auto;
+    max-height: 700px;
+}
+
+.review_desc{
+    margin: 20px auto 40px;
+}

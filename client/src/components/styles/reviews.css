@@ -1,0 +1,26 @@
+.review-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    position: relative;
+    display: flex;
+}
+
+.col{
+    /* margin: 5px; */
+}
+
+.card{
+    max-width: 300px;
+    /* min-width: 200px; */
+}
+
+.card-img-top{
+    max-width: 300px;
+}
+
+.card-body{
+    text-decoration: none;
+}

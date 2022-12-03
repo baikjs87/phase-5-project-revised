@@ -19,11 +19,20 @@ require "action_cable/engine"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+if ['development', 'test'].include? ENV['RAILS_ENV']
+  Dotenv::Railtie.load
+end
+
+HOSTNAME = ENV['HOSTNAME']
+
 module ReactRailsApiProjectTemplate
   class Application < Rails::Application
     # Adding cookies and session middleware
+    config.load_defaults 6.1
+    config.api_only = true
     config.middleware.use ActionDispatch::Cookies
     config.middleware.use ActionDispatch::Session::CookieStore
+    config.middleware.insert_after(ActionDispatch::Cookies, ActionDispatch::Session::CookieStore)
 
     # Use SameSite=Strict for all cookies to help protect against CSRF
     # https://owasp.org/www-community/SameSite

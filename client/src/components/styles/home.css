@@ -1,0 +1,22 @@
+.welcome{
+    text-align: right;
+    margin: 0 3vw;
+}
+
+.home-wrapper{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.blurb{
+    line-height: 180%;
+    background-color: rgba(253, 232, 137, 0.863);
+    padding: 20px 6em;
+    width: 100vw;
+    margin-bottom: 60px;
+}
+
+.main-wrapper{
+    margin: 30px 1em 200px;
+    position: relative;
+}

@@ -1,0 +1,39 @@
+.reviews-card{
+    max-width: 500px;
+    margin: 40px 40px 0 0;
+}
+
+.page-name {
+    margin-top: 40px;
+}
+
+.card-body{
+}
+
+.review-details{
+    display: inline-flex;
+}
+
+.review-image{
+    max-width: 200px;
+}
+
+.review-details-2{
+    margin-left: 30px;
+}
+
+.reviews-wrapper{
+    margin-left: 0;
+}
+
+.card-footer {
+    text-align: right;
+}
+
+.line{
+    margin: 20px 0;
+}
+
+.reviews-card{
+    padding: 0;
+}

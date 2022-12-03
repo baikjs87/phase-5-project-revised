@@ -1,0 +1,45 @@
+.header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #dbdcdb;
+    padding: 30px 1em;
+    align-items: center;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-div{
+    margin: 0 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    text-decoration: none;
+}
+
+.nav_buttons{
+    float: right;
+}
+
+#signup{
+    background-color: rgb(53, 53, 53);
+    padding: 15px 22px 18px 20px;
+    margin-left: 40px;
+    color: white;
+}
+
+.buttons_after_login {
+    margin-left: 40px;
+	color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.buttons_before_login {
+    margin-left: 40px;
+	color: rgb(0, 0, 0);
+    text-decoration: none;
+}

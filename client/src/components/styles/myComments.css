@@ -1,0 +1,16 @@
+.comments-wrapper{
+    margin-top: 40px;
+}
+
+.comment-card{
+    margin-top: 30px;
+    max-width: 600px;
+}
+
+.btn{
+    margin-right: 20px;
+}
+
+#comment-form{
+    margin: 20px;
+}

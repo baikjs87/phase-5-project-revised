@@ -4,7 +4,7 @@
   "private": true,
   "proxy": "http://localhost:3000",
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.13.0",
@@ -17,8 +17,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "build": "react-scripts build --openssl-legacy-provider start",
     "start": "PORT=4000 react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

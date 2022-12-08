@@ -84,7 +84,7 @@ function MyReviews({ myReviews, user, onUpdateReview, onDeleteReview }) {
                         <h3 className="card-header">{review.title}</h3>
                             <div className="card-body">
                                 <div className="review-details">
-                                    <img src={review.image_url} className="review-image" alt="" />
+                                    <img src={review.image_url} className="review-image" alt="review" />
                                     <div className="review-details-2">
                                         <h5>Rating: {review.rating}</h5>
                                         <h5>Brand: {review.brand.name}</h5>

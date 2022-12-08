@@ -9,7 +9,7 @@ function Reviews({ reviews, user }) {
                 <div className="col" key={review.id}>
                     <div className="card" key={review.id}>
                         <Link to={`/details/${review.id}`} state={{review, user}}>
-                            <img src={review.image_url} className="card-img-top" />
+                            <img src={review.image_url} className="card-img-top" alt="Review Image" />
                             <div className="card-body">
                                 <h5 className="card-title">{review.title}</h5>
                             </div>

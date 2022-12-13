@@ -19,7 +19,6 @@ function MyReviews({ myReviews, user, onUpdateReview, onDeleteReview }) {
         
         const { name, value } = e.target
         setReviewData({ ...reviewData, [name]: value })
-        // console.log(reviewData)
         fetch(`/reviews/${reviewData.id}`, {
             method: 'PATCH',
             headers: { 'Content-Type': 'application/json',},

@@ -1,8 +1,9 @@
 <br />
 
-<h1 align="center">
+<p align="center">
     <img alt="reviewed logo" src="https://ik.imagekit.io/baikjs87/REVIEWED_logo_lhHepsgWb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670909754167" width="224px">
-</h1>
+    <br />
+</p>
 
 <br />
 
@@ -17,10 +18,12 @@
 https://reviewed.onrender.com/
 
 <b>Please log in or sign up to use this site</b>
+<br />
 You can also log in using this test credentials
+```bash
 Username: user1
 Password: test
-
+```
 <br />
 
 ## 🎥 Video Walkthrough

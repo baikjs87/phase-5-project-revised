@@ -2,8 +2,8 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-color: #dbdcdb;
-    padding: 30px 1em;
+    background-color: white;
+    padding: 4vh 5vw;
     align-items: center;
     width: 100%;
     z-index: 1000;
@@ -26,10 +26,11 @@
 }
 
 #signup{
-    background-color: rgb(53, 53, 53);
-    padding: 15px 22px 18px 20px;
+    background-color: rgb(109, 49, 220);
+    padding: 10px 22px 12px 20px;
     margin-left: 40px;
     color: white;
+    border-radius: 12px;
 }
 
 .buttons_after_login {

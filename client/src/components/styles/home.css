@@ -4,19 +4,50 @@
 }
 
 .home-wrapper{
-    margin-top: 30px;
-    text-align: center;
+    display: block;
+    padding: 4vh 5vw;
+    background-color: white;
+    height: 100vh;
 }
 
 .blurb{
     line-height: 180%;
-    background-color: rgba(253, 232, 137, 0.863);
-    padding: 20px 6em;
-    width: 100vw;
+    /* background-color: rgba(253, 232, 137, 0.863); */
+    /* padding: 2vh 6em; */
     margin-bottom: 60px;
+    text-align: center;
 }
 
 .main-wrapper{
     margin: 30px 1em 200px;
     position: relative;
+    padding: 4vh 5vw;
+
+}
+
+#review_image{
+    margin-left: 5vw;
+    padding-bottom: 30vh;
+    float: left;
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    padding: 2vh 5vw;
+}
+
+.login_block{
+    float: left;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    padding: 8px 10px;
+    /* border: none; */
+}
+
+.card-title{
+    margin-bottom: 20px;
 }

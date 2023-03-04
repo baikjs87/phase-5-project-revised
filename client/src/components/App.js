@@ -93,7 +93,7 @@ function App() {
               <Routes>
                 <Route path="/signup" element={<SignUp setUser={setUser} />} />
                 <Route path="/login" element={<Login setUser={setUser} />} />
-                <Route path="/" element={<Home />} />
+                <Route path="/" element={<Home setUser={setUser} />} />
               </Routes>
             )}
           </main>
